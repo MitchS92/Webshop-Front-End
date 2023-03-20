@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+* {
+    overflow-x: hidden;
+}
+
+body {
+    font-family:"DM Sans", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.menu   {
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.welcomeSection {
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.welcome {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #000000;    
+}
+
+.welcomeMessage {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.2px;
+    color: #000000;
+
+}
+
+.searchInput {
+    background: #FFFFFF;
+    border: 1px solid #BABABA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 95%;
+    height: 2.0rem;
+    outline: none;
+    background: url(./Assets/search.png) 3% center no-repeat;
+    padding: 0 2.5rem;
+    margin-top: 1rem;
+
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #BABABA;
+}
+
+.searchInput::placeholder {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #BABABA;
+}
+
+.productSection {
+    background: #f6f6f6;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.productCategoryList {
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.productCategory {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #7F7F7F;
+    margin: 0 2rem;
+    
+}
+
+.productCategoryActive {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.2;
+    color: #7f7f7f;
+    margin: 	0 2rem;
+    background: #0acf83;
+    border-radius: 30px;
+    padding: 0.25rem 0.5rem;
+
+    color: #FFFFFF;
+}
+
+.mainProduct {
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    padding: 1.5rem;
+
+}
+
+.mainProductInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.mainProductTitle {
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.mainProductCta {
+    text-decoration: none;
+    display: flex;
+}
+
+.mainProductShopNow {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #0acf83;
+    margin-right: 1rem;
+
+}
+
+.featuredProductsSection {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.featuredProductsLink {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #7f7f7f;
+    text-decoration:  none;
+}
+
+.featuredProductsList{
+    display: flex;
+}
+
+.featuredProduct {
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin: 1rem;
+    display: flex;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+.featuredProductTitleDetails {
+    height: 30%;
+
+}
+
+.featuredProductsTitle {
+    font-size: 14;
+    line-height: 18px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.featuredProductPrice {
+    font-weight: bold;
+    font-size:  12px;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
